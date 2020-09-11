@@ -1,0 +1,35 @@
+{
+  "name": "SimpleWatchface",
+  "author": "Spaceman",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "SimpleWatchface",
+    "uuid": "b6d9e9fe-789c-4376-ae82-7aba4ac37f08",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [        
+        {
+          "type": "font",
+          "name": "FONT_LEXEND_DECA_48",
+          "file": "fonts/lexend_deca.ttf"
+        }
+      ]
+    }
+  }
+}
